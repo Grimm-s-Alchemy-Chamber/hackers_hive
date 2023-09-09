@@ -18,7 +18,7 @@ We believe in the power of open collaboration, and we welcome contributions from
 
 - **Spread the Word**: Enjoy our content? Help us reach a wider audience by sharing our blog posts with your network.
 
-- **More detailed Contribution guidelines in [Contribution.md](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive/blob/main/Contribution.md)**
+- **More detailed Contribution guidelines in [CONTRIBUTING.md](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive/blob/main/CONTRIBUTING.md)**
 
 
 ## Contact Us
