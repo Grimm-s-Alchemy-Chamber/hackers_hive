@@ -20,7 +20,30 @@ We believe in the power of open collaboration, and we welcome contributions from
 
 - **More detailed Contribution guidelines in [CONTRIBUTING.md](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive/blob/main/CONTRIBUTING.md)**
 
-- Don't forget to star this repository.
+- **Don't forget to star this repository.**
+
+
+## Blog Topics
+
+**LOW OR NON CODE CONTRIBUTIONS**
+
+At its core, Hacktoberfest aims to encourage more individuals to participate in open source and collaborate to enhance the software driving our world today. Open source projects can benefit greatly from community contributions, and there are a multitude of ways to get involved that don’t involve coding skills. Whether you possess technical expertise or not, you can leverage your professional skills to support open-source projects. In line with last year’s effort, we’re committed to promoting contributions that don’t require technical knowledge.
+
+Low-code and non-code contributions are an excellent way to get involved in supporting open source. Here are some examples of ways you can contribute to open-source projects:
+
+**LOW-CODE CONTRIBUTIONS:**
+- Technical documentation
+- User experience testing
+- Technical blog post or tutorial
+- Case studies
+
+**NON-CODE CONTRIBUTIONS:**
+- Writing
+- Translating
+- Copy editing
+- Social media
+- Blog posts
+- Graphic design
 
 
 ## Contact Us
