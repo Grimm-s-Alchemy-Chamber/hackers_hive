@@ -66,6 +66,6 @@ git push origin your-branch-name
 
 ## Code of Conduct
 
-Please adhere to our [Code of Conduct](https://github.com/matiassingers/awesome-readme) in all interactions related to this project.
+Please adhere to our [Code of Conduct](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive/blob/main/CodeOfConduct.md) in all interactions related to this project.
 
 Thank you for contributing to our open-source programming blog. Your contributions help us create a valuable resource for programmers worldwide!
