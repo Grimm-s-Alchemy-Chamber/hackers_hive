@@ -20,6 +20,8 @@ We believe in the power of open collaboration, and we welcome contributions from
 
 - **More detailed Contribution guidelines in [CONTRIBUTING.md](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive/blob/main/CONTRIBUTING.md)**
 
+- Don't forget to star this repository.
+
 
 ## Contact Us
 
