@@ -1,0 +1,12 @@
+---
+layout: post
+title: Secind Post
+subtitle: testing post by holygrimm
+categories: test
+tags: [example, test]
+author: holygrimm
+banner:
+    image: assets/images/banners/firstpostimg.jpg
+    heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+    subheading_style: "color: gold"
+---
