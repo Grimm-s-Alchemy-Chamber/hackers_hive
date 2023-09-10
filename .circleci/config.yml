@@ -24,13 +24,13 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          #- v2-dependencies-{{ checksum "Gemfile.lock" }}
+          - v2-dependencies-{{ checksum "Gemfile.lock" }}
           # fallback to using the latest cache if no exact match is found
           - v2-dependencies-
 
       - run:
           name: Ruby dependencies
-          command: bundle install
+          command: bundle _2.0_ install
 
       - run:
           name: Node dependencies
