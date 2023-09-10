@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/test/2020/07/09/first-post.html</loc>
+<loc>http://localhost:4000/test/2020/07/09/first-post.html</loc>
 <lastmod>2020-07-09T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>/test/2023/09/10/test-by-holygrimm.html</loc>
+<loc>http://localhost:4000/anime/2023/07/11/lunchbreak.html</loc>
+<lastmod>2023-07-11T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/test/2023/09/10/test-by-holygrimm.html</loc>
 <lastmod>2023-09-10T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>/about.html</loc>
+<loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
-<loc>/archives.html</loc>
+<loc>http://localhost:4000/archives.html</loc>
 </url>
 <url>
-<loc>/categories.html</loc>
+<loc>http://localhost:4000/categories.html</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>/tags.html</loc>
+<loc>http://localhost:4000/tags.html</loc>
 </url>
 </urlset>
