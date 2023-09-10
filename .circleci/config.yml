@@ -1,5 +1,6 @@
 #The Firebase tools want a v6.x version of Node but Circle CI
 # defaults to v4.x. Set the latest LTS version.
+version: 2.1
 machine:
   node:
     version: 18.17.1
