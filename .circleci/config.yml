@@ -1,31 +1,55 @@
-#The Firebase tools want a v6.x version of Node but Circle CI
-# defaults to v4.x. Set the latest LTS version.
-version: 2.1
-machine:
-  node:
-    version: 18.17.1
+### Taken from https://github.com/Hyperparticle/hyperparticle.github.io/blob/2365749469b1eea3e8c4b18af24a4865fc426fd3/.circleci/config.yml
 
-# Need to install firebase-tools so that the deploy works
-dependencies:
-  pre:
-    - npm install -g firebase-tools
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: starefossen/ruby-node:2-8
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
 
-# Need to tell Circle CI how to build the site
-compile:
-  override:
-    - bundle exec jekyll build --verbose
+    working_directory: ~/repo
 
-# Circle CI expects some kind of testing to pass in order for the
-# build to be successful and deploy. Since you don't have tests
-# you can fake it by just returning true. http://gph.is/1MLPDWK
-test:
-  override:
-    - "true"
+    steps:
+      - checkout
 
-# How you tell Circle to deploy to Firebase. The important thing to
-# note here is the FIREBASE_TOKEN env variable. See below.
-deployment:
-  production:
-    branch: main
-    commands:
-      - firebase deploy --token=$FIREBASE_TOKEN --non-interactive
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v2-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v2-dependencies-
+
+      - run:
+          name: Ruby dependencies
+          command: bundle install
+
+      - run:
+          name: Node dependencies
+          command: npm install -g firebase-tools@3.9.1 --unsafe-perm
+
+      - save_cache:
+          paths:
+            - /usr/local/bundle
+            - /usr/local/lib/node_modules
+          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Build
+          command: bundle exec jekyll build --verbose
+      
+      - run:
+          name: Test
+          command: bundle exec htmlproofer ./_site --check-html --disable-external
+      
+      - run:
+          name: Deploy
+          command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive
