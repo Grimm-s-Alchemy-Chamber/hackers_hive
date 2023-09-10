@@ -11,7 +11,7 @@ Thank you for considering contributing to our open-source programming blog. We w
 - **Clone the Repository:** Clone your forked repository to your local machine:
 
   ```bash
-  git clone [https://github.com/your-username/programming-blog.git](https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive.git)
+  git clone https://github.com/Grimm-s-Alchemy-Chamber/hackers_hive.git
 
 - **Create a New Branch:** Before making any changes, create a new branch for your contribution:
   ```bash
