@@ -26,6 +26,6 @@ test:
 # note here is the FIREBASE_TOKEN env variable. See below.
 deployment:
   production:
-    branch: master
+    branch: main
     commands:
       - firebase deploy --token=$FIREBASE_TOKEN --non-interactive
