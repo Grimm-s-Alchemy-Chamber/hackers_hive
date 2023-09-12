@@ -6,11 +6,10 @@
   tags: [Deep Learning,Data Science,Artificial Intelligence,Python Programming,Advanced Technology]
   author: Afnan Ahmed
   banner:
-      image: assets\images\banners\afnanblog2.jpg
+      image: assets/images/banners/afnanblog2.jpg
       heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
       subheading_style: "color: gold"
 ---
-<p>
 Introduction
 Welcome to the world of machine learning, where our algorithms are as busy as bees in a hive! In this "bee-rilliant" blog post, we'll take a whimsical journey through some of the most advanced machine learning packages available. Just like the bees in a hive work tirelessly to produce honey, these packages work tirelessly to make our lives sweeter. So, don your beekeeper suit, and let's dive into the hive of machine learning!
 
@@ -36,4 +35,3 @@ Conclusion Nectar of Knowledge
 In the world of machine learning, these "bees" work tirelessly to collect the nectar of knowledge. TensorFlow reigns supreme, while PyTorch, Scikit-learn, XGBoost, Keras, and AutoML play crucial roles in our "hive" of tools. Just like the bees in a hive, they each have their unique strengths, contributing to the rich ecosystem of machine learning.
 
 So, as you embark on your journey through the "bee-hive" of machine learning, remember that these packages are your trusty pollinators, buzzing with potential and ready to make your projects sweeter than honey. Happy coding, fellow beekeepers of the machine learning world!
-</p>
