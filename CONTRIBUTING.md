@@ -45,9 +45,10 @@ YYYY-MM-DD-title-of-your-post.md
 
 - **Content:** Write your blog post content in Markdown below the Front Matter. You can include text, code snippets, images, and links.
 
-- **Images:** If your post includes images, place them in the assets/images directory.
+- **Images:** If your post includes images, place them in the assets/images/banners directory.
 
 - **Testing Locally:** To preview your blog post locally, run jekyll serve and open your browser at http://localhost:4000. Ensure your post renders correctly.
+
 ## Submitting Your Contribution
 - **Commit Your Changes:** After writing and testing your blog post, commit your changes to your branch:
 
@@ -63,6 +64,10 @@ git push origin your-branch-name
 ```
 
 - **Create a Pull Request:** Go to the original repository and create a Pull Request (PR) from your forked branch. Provide a descriptive title and details about your contribution.
+  - Don't forget to link PR to issue if you are solving one.
+  - We may ask for changes to be made before a PR can be merged, either using suggested changes or pull request comments. You can apply suggested changes directly through the UI. You can make any       other changes in your fork, then commit them to your branch.
+  - As you update your PR and apply changes, mark each conversation as resolved
+  - If you run into any merge issues, checkout this git tutorial to help you resolve merge conflicts and other issues.
 
 - **Review and Discussion:** Participate in the review process by responding to comments, addressing feedback, and making necessary revisions.
 
