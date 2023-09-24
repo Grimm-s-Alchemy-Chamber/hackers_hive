@@ -26,7 +26,7 @@ YYYY-MM-DD-title-of-your-post.md
 ```
 - **Front Matter:** Include Front Matter at the beginning of your Markdown file with metadata like the post's title, subtitle, categories, tags, author, and a banner image. Here's an example:
 ```
-  ---
+---
   layout: post
   title: <Your Blog Post Title>
   subtitle: <short subtitle of your post>
@@ -37,7 +37,7 @@ YYYY-MM-DD-title-of-your-post.md
       image: assets/images/banners/<imagename.extension>
       heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
       subheading_style: "color: gold"
-  ---
+---
 
 ```
 - **categories, tags will be given in the description of the issue**
