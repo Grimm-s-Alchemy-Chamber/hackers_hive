@@ -4,7 +4,7 @@
 Thank you for considering contributing to our open-source programming blog. We welcome contributions from fellow developers and enthusiasts to help us create valuable content for the community. To ensure a smooth collaboration, please follow these guidelines when submitting your contribution:
 
 ## Getting Started
-- **Make sure you have installed all Jekyll [Prerequisites](https://jekyllrb.com/docs/installation/) **
+- **Make sure you have installed all Jekyll [Prerequisites](https://jekyllrb.com/docs/installation/)**
 
 - **Fork the Repository:** Begin by forking our blog's GitHub repository to your own GitHub account.
 
