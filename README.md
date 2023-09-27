@@ -6,6 +6,17 @@ Welcome to the GitHub repository for our open-source programming blog. This repo
 
 We are a community of programming enthusiasts, ranging from students to seasoned developers, who are passionate about open-source technology and programming. Our blog is dedicated to sharing knowledge, insights, and tutorials to help developers of all levels.
 
+## Hacktoberfest 2023 is finally here 
+
+![alt text](assets/images/hf10_banner_sponsors_1032x600.png)
+
+Hacktoberfest, started by DigitalOcean, is celebrating its 10th anniversary this year 🥳 It is an annual event that celebrates open-source software development by having developers actively contribute to open-source projects. As of last year alone, there were over 147,000 participants.
+
+### What is Hacktoberfest?
+Hacktoberfest is an event to encourages developers to contribute to open-source projects. Contributors are encouraged to make four valid pull/merge requests to public and participating repositories to be eligible for digital rewards. It provides an opportunity for developers, both new and experienced, to engage with open-source projects and make meaningful contributions.
+
+
+
 ## How to Contribute
 
 We believe in the power of open collaboration, and we welcome contributions from the broader programming community. Here's how you can get involved:
