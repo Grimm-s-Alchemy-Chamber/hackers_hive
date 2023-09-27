@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-#Title Of Blog Post : 
-###Short Description of what is expected : 
+# Title Of Blog Post : 
+### Short Description of what is expected : 
 
-###Category :
-###Tags :
+### Category :
+### Tags :
