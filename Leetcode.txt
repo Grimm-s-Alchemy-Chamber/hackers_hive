@@ -1,0 +1,68 @@
+Which questions are crucial for interview preparation? 
+
+
+
+
+As a CS/IT student, it is crucial to have a firm grasp of the fundamental data structures, algorithms, and problem-solving strategies. In coding rounds, the following significant inquiries are frequently asked:
+
+
+1. ARRAY
+Find the maximum subarray sum.
+Rotate an array by a given number of steps.
+Merge two sorted arrays.
+ 2.String Manipulation:
+Reverse a string.
+Check if a string is a palindrome.
+Find the longest common prefix.
+3.Linked List:
+Reverse a linked list.
+Detect and remove a loop in a linked list.
+Find the middle element of a linked list.
+4. Binary Trees:
+Implement tree traversal algorithms (preorder, inorder, postorder).
+Find the maximum depth/height of a binary tree.
+Check if a binary tree is a valid binary search tree (BST).
+
+
+
+5. Dynamic Programming:
+Find the nth Fibonacci number.
+Calculate the minimum number of coins to make change.
+Determine the longest increasing subsequence.
+6. Searching and Sorting:
+Implement binary search in a sorted array.
+Sort an array using different algorithms (e.g., bubble sort, merge sort, quicksort).
+Find the kth smallest element in an unsorted array.
+
+7. Graph Algorithms:
+Implement depth-first search (DFS) and breadth-first search (BFS).
+Find the shortest path between two nodes in a graph (Dijkstra's algorithm).
+Detect cycles in a directed graph.
+
+
+Always keep in mind that it's crucial to comprehend the fundamental ideas behind these problems and practise answering them in your favourite programming language. To improve your solutions, think about researching time and space complexity analysis. Wishing you luck as you prepare for your interview!
+
+
+Various coding platforms are available for you to use in your practise with the questions.
+The various platforms for coding include:
+
+
+Leetcode
+Hackerrank
+Codechef
+Codeforces
+Hackerearth
+GeeksforGeeks
+Codestudio
+
+Always remember that your success in life depends entirely on your hard work. You must consistently learn new material, expand your knowledge, and improve yourself.
+
+
+
+
+
+
+
+For more, follow 🚀
+
+By Aditya Srivastav
