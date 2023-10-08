@@ -6,7 +6,17 @@
    ```
    $ mkdir go_hello_world
    $ cd go_hello_world
+   $ go mod init example/hello
+
+   Create a file called "main.go"
    $ touch main.go
+
+   Copy and Paste the below given example
+
+   To execute the go
+   $ go run main.go
+   The output will be:
+   Hello World!
 
 - example
   ```
@@ -18,3 +28,52 @@
       fmt.Println("Hello World!")
     }
   ```
+
+# Fundamental Concepts
+| step | name | what needs to be covered |
+|----------|----------|----------|
+| 1 | Go Basics | Variables, Constants, Conditional Statements | 
+| 2 | Data Types | integers, strings, and arrays |
+| 3 | Functions | how to declare and call functions |
+| 4 | data structures | Structs, Arrays, Slices |
+| 5 | Loops | for loop, Infinite loop, range loop, Nested loop, Loop Control Statements |
+| 6 | Pointers | Memory Address, Declaration, Initialization, Dereferencing, Nil Pointers,  Pointers to Functions, Pointer Arithmetic, Pointers and Slices/Maps, Garbage Collection |
+| 7 | Concurrency | Goroutines, Channels, Select Statement, Mutexes, Wait Groups |
+
+# Framework
+![go-framework](https://github.com/devkishor8007/hackers_hive/assets/73419211/3bc0c8fb-aef6-453b-aadb-3c541f984ed1)
+| id | name | url | 
+|----------|----------|----------|
+| 1 | Gin | https://gin-gonic.com/docs/ |
+| 2 | Echo | https://echo.labstack.com/docs/quick-start |
+| 3 | Mux | https://github.com/gorilla/mux |
+| 4 | Fiber | https://docs.gofiber.io/ |
+| 5 | Revel | https://revel.github.io/  |
+| 6 | Iris | https://www.iris-go.com/docs/#/ |
+| 7 | goji  | https://goji.io/ |
+| 8 | buffalo | https://gobuffalo.io/documentation/  |
+| 9 | Beego | https://github.com/beego/beego |
+| 10 | Martini | https://github.com/go-martini/martini |
+| 11 | Go zero | https://github.com/zeromicro/go-zero |
+
+# Resources
+| id | topic | url |
+|----------|----------|----------|
+| 1 | Uber Go Style Guide | https://github.com/uber-go/guide/blob/master/style.md#uber-go-style-guide |
+| 2 | Awsome Go | https://github.com/avelino/awesome-go |
+| 3 | Go Code Review Comments | https://github.com/golang/go/wiki/CodeReviewComments |
+| 4 | Go Standard library | https://pkg.go.dev/std |
+
+# Types Of Project Can be built in Go
+| id | name | 
+|----------|----------|
+| 1 | Web Applications and APIs
+| 2 | Microservices |
+| 3 | Command-Line Tools |
+| 4 | Networking Applications |
+| 5 | Blockchain and Cryptocurrency Projects | 
+| 6 | System Programming | 
+| 7 | IoT (Internet of Things) |
+
+## Tips
+To start I recommend referring to the Go website located at [golang](https://golang.org/). It offers documentation and a language tour that will help you begin your journey, with Go. Another useful resource is the Go Tour, which can be accessed at [Go Tour](https://go.dev/tour/list). This interactive platform provides a way to grasp the fundamentals of Go.
