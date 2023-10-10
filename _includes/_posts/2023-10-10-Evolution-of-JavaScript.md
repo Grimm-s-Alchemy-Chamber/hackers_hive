@@ -9,6 +9,10 @@
 **Tags**: hacktoberfest, good first issue, JavaScript, technology
 
 **Author**: Shreyanshi Golhani
+**banner**:
+      image: assets/images/banners/JavaScript.jpg
+      heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+      subheading_style: "color: gold"
 
 # JavaScript / ECMAScript
 
