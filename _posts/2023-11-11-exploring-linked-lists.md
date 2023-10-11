@@ -51,7 +51,7 @@ To delete a node from the linked list, we need to do the following steps:
 
 
 # Doubly Linked Lists
-Doubly Linked lists are quite similar to Singly linked lists but here, traversall can be done both ways. It uses an extra pointer to do so. Again, the head node is the beginning of the list and the tail points to the null pointer indicating the end of the list. In addition to the <b>Next Pointer</b>, each node also has a <b>Prev Pointer</p> which points to the previous node. The head's previous node points to null pointer and all other nodes in the list have their prev pointer pointing to the previous node.
+Doubly Linked lists are quite similar to Singly linked lists but here, traversall can be done both ways. It uses an extra pointer to do so. Again, the head node is the beginning of the list and the tail points to the null pointer indicating the end of the list. In addition to the <b>Next Pointer</b>, each node also has a <b>Prev Pointer</b> which points to the previous node. The head's previous node points to null pointer and all other nodes in the list have their prev pointer pointing to the previous node.
 
 ### Python Code
 ```
