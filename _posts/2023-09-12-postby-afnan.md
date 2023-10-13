@@ -1,14 +1,14 @@
 ---
-  layout: post
-  title: Bee-Hive Mind
-  subtitle: A Buzzworthy Dive into Advanced Machine Learning Packages
-  categories: Machine Learning
-  tags: [Deep Learning,Data Science,Artificial Intelligence,Python Programming,Advanced Technology]
-  author: Afnan Ahmed
-  banner:
-      image: assets/images/banners/afnanblog2.jpg
-      heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-      subheading_style: "color: gold"
+layout: post
+title: Bee-Hive Mind
+subtitle: A Buzzworthy Dive into Advanced Machine Learning Packages
+categories: Machine Learning
+tags: [Deep Learning,Data Science,Artificial Intelligence,Python Programming,Advanced Technology]
+author: Afnan Ahmed
+banner:
+    image: assets/images/banners/afnanblog2.jpg
+    heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+    subheading_style: "color: gold"
 ---
 Introduction
 Welcome to the world of machine learning, where our algorithms are as busy as bees in a hive! In this "bee-rilliant" blog post, we'll take a whimsical journey through some of the most advanced machine learning packages available. Just like the bees in a hive work tirelessly to produce honey, these packages work tirelessly to make our lives sweeter. So, don your beekeeper suit, and let's dive into the hive of machine learning!

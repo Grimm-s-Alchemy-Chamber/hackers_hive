@@ -4,7 +4,7 @@
 Thank you for considering contributing to our open-source programming blog. We welcome contributions from fellow developers and enthusiasts to help us create valuable content for the community. To ensure a smooth collaboration, please follow these guidelines when submitting your contribution:
 
 ## Getting Started
-- **Make sure you have installed all Jekyll Prerequisites**
+- **Make sure you have installed all Jekyll [Prerequisites](https://jekyllrb.com/docs/installation/)**
 
 - **Fork the Repository:** Begin by forking our blog's GitHub repository to your own GitHub account.
 
@@ -48,6 +48,8 @@ YYYY-MM-DD-title-of-your-post.md
 - **Images:** If your post includes images, place them in the assets/images/banners directory.
 
 - **Testing Locally:** To preview your blog post locally, run jekyll serve and open your browser at http://localhost:4000. Ensure your post renders correctly.
+  
+- **Do not edit any other posts**
 
 ## Submitting Your Contribution
 - **Commit Your Changes:** After writing and testing your blog post, commit your changes to your branch:
