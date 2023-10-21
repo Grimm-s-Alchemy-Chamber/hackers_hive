@@ -1,14 +1,14 @@
 ---
-  layout: post
-  title: Exploring Linked Lists:A Beginner's Guide
-  subtitle: All you need to know to get started with Linked lists.
-  categories: Programming, Data Structures, Algorithms
-  tags: [Linked Lists, Singly Linked Lists, Doubly Linked Lists, Circular Linked Lists]
-  author: Krishna Sharma S
-  banner:
-      image: assets/images/banners/linked-list.png
-      heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-      subheading_style: "color: gold"
+layout: post
+title: Exploring Linked Lists:A Beginner's Guide
+subtitle: All you need to know to get started with Linked lists.
+categories: Programming, Data Structures, Algorithms
+tags: [Linked Lists, Singly Linked Lists, Doubly Linked Lists, Circular Linked Lists]
+author: Krishna Sharma S
+banner:
+    image: assets/images/banners/linked-list.png
+    heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+    subheading_style: "color: gold"
 ---
 # Intoduction
 A linked list is a daaata structure where the elements (nodes) are stoerd in non contiguous memory locations and are linked using pointers.
