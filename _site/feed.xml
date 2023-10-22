@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-13T21:22:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hacker’s Hive</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Bee-Hive Mind</title><link href="http://localhost:4000/machine/learning/2023/09/12/postby-afnan.html" rel="alternate" type="text/html" title="Bee-Hive Mind" /><published>2023-09-12T00:00:00+05:30</published><updated>2023-09-12T00:00:00+05:30</updated><id>http://localhost:4000/machine/learning/2023/09/12/postby-afnan</id><content type="html" xml:base="http://localhost:4000/machine/learning/2023/09/12/postby-afnan.html"><![CDATA[<p>Introduction
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-22T15:46:31+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hacker’s Hive</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Creating your first Smart Contract in Solidity</title><link href="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html" rel="alternate" type="text/html" title="Creating your first Smart Contract in Solidity" /><published>2023-10-22T00:00:00+05:30</published><updated>2023-10-22T00:00:00+05:30</updated><id>http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity</id><content type="html" xml:base="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html"><![CDATA[<h1 id="-creating-your-first-smart-contract-with-solidity-"><span style="font-size: 4.25em; font-weight: bold; text-decoration: underline"> Creating Your First Smart Contract with Solidity </span></h1>
+
+<h2 id="-what-are-smart-contracts-"><span style="color: gold"> What are Smart Contracts? </span></h2>
+
+<p>Smart contracts are self-executing contracts (programs) with the terms and conditions of an agreement directly written into code.
+They run on blockchain technology such as Ethereum, ensuring that the terms of the contract are automatically enforced without the need for any intermediaries.
+Smart contracts are programs that govern the behavior of accounts within the Ethereum state.
+Smart contracts are a type of Ethereum account. This means they have a balance and can be the target of transactions.
+However they’re not controlled by a user, instead they are deployed to the network and run as programmed.
+User accounts can then interact with a smart contract by submitting transactions that execute a function defined on the smart contract.
+Smart contracts can define rules, like a regular contract, and automatically enforce them via the code.
+Smart contracts cannot be deleted by default, and interactions with them are irreversible.</p>
+
+<h2 id="-what-is-solidity-"><span style="color: gold"> What is Solidity? </span></h2>
+
+<p>Solidity is an object-oriented, high-level language for implementing smart contracts.
+Solidity is statically typed and supports inheritance, libraries, and complex user-defined types, among other features.
+With Solidity, you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.
+Smart contracts can be run on a local environment, for this guide we will be using and popular IDE Remix.</p>
+
+<h2 id="-remix-ide-"><span style="color: gold"> REMIX IDE </span></h2>
+
+<p>Remix is a popular web-based integrated development environment (IDE) specifically designed for Solidity smart contract development. It’s an excellent choice for beginners, as it provides a user-friendly interface and a built-in Ethereum development environment. In this guide, we will walk you through creating your very first smart contract using Remix.</p>
+
+<h2 id="-your-first-smart-contract--simplestoragesol--"><span style="color: gold"> Your first smart-contract ( SimpleStorage.sol ) </span></h2>
+
+<ol>
+  <li>Go to <a href="https://remix.ethereum.org/">Remix</a></li>
+  <li>You can check out the existing contracts in the contract folder.</li>
+  <li>In the Remix IDE, create a new file and name it SimpleStorage.sol</li>
+  <li>Write the Solidity code for the smart contract:</li>
+</ol>
+
+<pre><code class="language-solidity">// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleStorage {
+    uint storedData;
+
+    function set(uint x) public {
+        storedData = x;
+    }
+
+    function get() public view returns (uint) {
+        return storedData;
+    }
+}
+</code></pre>
+
+<p>The first line tells you that the source code is licensed under MIT. Machine-readable license specifiers are important in a setting where publishing the source code is the default.
+The next line specifies that the source code is written for Solidity version 0.8.0, or a newer version of the language. This is to ensure that the contract is not compilable with a new (breaking) compiler version, where it could behave differently. Pragmas are common instructions for compilers about how to treat the source code (e.g. pragma once).
+A contract in the sense of Solidity is a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain. The line uint storedData; declares a state variable called storedData of type uint (unsigned integer of 256 bits)
+The contract defines the functions set and get that can be used to modify or retrieve the value of the variable storedData.</p>
+
+<h2 id="-compiling-and-deploying-your-smart-contract-"><span style="color:gold"> Compiling and Deploying Your Smart Contract </span></h2>
+
+<p>Now, let’s compile and deploy your smart contract using Remix:</p>
+
+<ol>
+  <li>
+    <p>In the Remix IDE, go to the “Solidity Compiler” tab on the left.</p>
+  </li>
+  <li>
+    <p>Click the “Compile SimpleStorage.sol” button. Remix will compile your contract.
+ <img src="/assets/images/banners/compile-contract.png" alt="Compile Contract" /></p>
+  </li>
+  <li>
+    <p>Head to the “Deploy &amp; Run Transactions” tab. Click on the deploy button.
+ <img src="/assets/images/banners/deploy-contract-1.png" alt="Deploy Contract" /></p>
+  </li>
+</ol>
+
+<h2 id="-interacting-with-your-smart-contract-"><span style="color:gold"> Interacting with your smart contract </span></h2>
+
+<p>From the “Deploy” section, select your contract “SimpleStorage”. You can put in your value to be stored in storedData and click set to call the function set(). Further click on get to call get() and you will see the value stored in the variable storedData.
+    <img src="/assets/images/banners/deploy-contract-2.png" alt="Interacting with Contract" /></p>
+
+<h2 id="-conclusion-"><span style="color: gold"> Conclusion </span></h2>
+<p>Congratulations! You have successfully deployed your first ever smart contract!!
+I hope this post has helped in building a basic understanding of smart contracts and has incited a fuel to learn more about smart contracts. To further continue your study, you can refer to the links mentioned in references.</p>
+
+<h2 id="-further-references-"><span style="color:gold"> Further References </span></h2>
+
+<h3 id="documentations">Documentations</h3>
+
+<ul>
+  <li>
+    <p><a href="https://docs.soliditylang.org/en/v0.8.21/introduction-to-smart-contracts.html#simple-smart-contract">Solidity Documentation</a></p>
+  </li>
+  <li>
+    <p><a href="https://solidity-by-example.org/">Solidity by example</a></p>
+  </li>
+  <li>
+    <p><a href="https://bitcoin.org/bitcoin.pdf">Satoshi Nakamoto(founder of Bitcoin) paper</a></p>
+  </li>
+</ul>
+
+<h3 id="youtube-and-other-courses">Youtube and other courses</h3>
+
+<ul>
+  <li>
+    <p><a href="https://youtu.be/gyMwXuJrbJQ?si=-IwopmbznCS-rair">Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.udemy.com/course/build-your-blockchain-az/">Blockchain A-Z: Build a Blockchain, a Crypto + ChatGPT Bonus</a></p>
+  </li>
+</ul>]]></content><author><name>Advait Yadav</name></author><category term="Blockchain" /><category term="Development" /><category term="Ethereum" /><category term="Smart Contracts" /><category term="Solidity Programming" /><summary type="html"><![CDATA[Creating Your First Smart Contract with Solidity]]></summary></entry><entry><title type="html">Bee-Hive Mind</title><link href="http://localhost:4000/machine/learning/2023/09/12/postby-afnan.html" rel="alternate" type="text/html" title="Bee-Hive Mind" /><published>2023-09-12T00:00:00+05:30</published><updated>2023-09-12T00:00:00+05:30</updated><id>http://localhost:4000/machine/learning/2023/09/12/postby-afnan</id><content type="html" xml:base="http://localhost:4000/machine/learning/2023/09/12/postby-afnan.html"><![CDATA[<p>Introduction
 Welcome to the world of machine learning, where our algorithms are as busy as bees in a hive! In this “bee-rilliant” blog post, we’ll take a whimsical journey through some of the most advanced machine learning packages available. Just like the bees in a hive work tirelessly to produce honey, these packages work tirelessly to make our lives sweeter. So, don your beekeeper suit, and let’s dive into the hive of machine learning!</p>
 
 <p>Chapter 1 TensorFlow - The Queen Bee of Deep Learning
