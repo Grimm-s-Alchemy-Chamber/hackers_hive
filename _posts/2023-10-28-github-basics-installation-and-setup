@@ -6,7 +6,7 @@ categories: Git Github
 tags: [Git github installation]
 author: Abhay
 banner:
-  image:  ""
+  image:  "assets/images/banners/git-and-github.png"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 ---
