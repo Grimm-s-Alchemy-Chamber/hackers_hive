@@ -67,7 +67,7 @@ For Windows head over to [Git](https://git-scm.com/downloads) website and downlo
 
 After installation, you can use either GUI or CLI
 
-# Setup
+## Setup
 
 ### Step 2.1: Setup Git
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
