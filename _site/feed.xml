@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-22T15:46:31+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hacker’s Hive</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Creating your first Smart Contract in Solidity</title><link href="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html" rel="alternate" type="text/html" title="Creating your first Smart Contract in Solidity" /><published>2023-10-22T00:00:00+05:30</published><updated>2023-10-22T00:00:00+05:30</updated><id>http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity</id><content type="html" xml:base="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html"><![CDATA[<h1 id="-creating-your-first-smart-contract-with-solidity-"><span style="font-size: 4.25em; font-weight: bold; text-decoration: underline"> Creating Your First Smart Contract with Solidity </span></h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-28T01:22:51+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hacker’s Hive</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">GitHub Basics - Installation and Setup</title><link href="http://localhost:4000/git/github/2023/10/28/github-basics-installation-and-setup.html" rel="alternate" type="text/html" title="GitHub Basics - Installation and Setup" /><published>2023-10-28T00:00:00+05:30</published><updated>2023-10-28T00:00:00+05:30</updated><id>http://localhost:4000/git/github/2023/10/28/github-basics-installation-and-setup</id><content type="html" xml:base="http://localhost:4000/git/github/2023/10/28/github-basics-installation-and-setup.html"><![CDATA[<h1 id="install-git">Install Git</h1>
+
+<h2 id="linux">Linux</h2>
+
+<h3 id="step-11-update-the-system">Step 1.1: Update the system</h3>
+
+<p>Run these commands in the terminal to update the Linux system:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
+sudo apt upgrade
+</code></pre></div></div>
+
+<h3 id="step-12-install-git">Step 1.2: Install Git</h3>
+<p>You likely have git installed already, but to make sure that we have the most up-to-date version of git, run the following commands:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+</code></pre></div></div>
+
+<h3 id="step-13-verify-version">Step 1.3: Verify version</h3>
+<p>Make sure your Git version is at least 2.28 by running this command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git --version
+</code></pre></div></div>
+
+<h2 id="macos">MacOS</h2>
+
+<h3 id="step-10-install-homebrew">Step 1.0: Install Homebrew</h3>
+
+<p>First, you’ll need to install Homebrew. Make sure you have checked the requirements here. Once you meet the requirements, copy and paste the following into your terminal:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+</code></pre></div></div>
+
+<h3 id="step-11-update-git">Step 1.1: Update Git</h3>
+<p>MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install git
+</code></pre></div></div>
+<p>This will install the latest version of Git. Easy, right?</p>
+
+<h3 id="step-12-verify-version">Step 1.2: Verify version</h3>
+<p>If you have just installed and/or updated Git from the previous step, first close that terminal window.</p>
+
+<p>Open a new terminal window and then make sure your Git version is at least 2.28 by running this command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git --version
+</code></pre></div></div>
+
+<h2 id="windows">Windows</h2>
+
+<p>For Windows head over to <a href="https://git-scm.com/downloads">Git</a> website and download the software</p>
+
+<p>After installation, you can use either GUI or CLI</p>
+
+<h2 id="setup">Setup</h2>
+
+<h3 id="step-21-setup-git">Step 2.1: Setup Git</h3>
+<p>For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.</p>
+
+<p>The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+</code></pre></div></div>
+<p>GitHub recently changed the default branch on new repositories from master to main. Change the default branch for Git using this command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global init.defaultBranch main
+</code></pre></div></div>
+<p>To enable colorful output with git, type</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global color.ui auto
+</code></pre></div></div>
+<p>To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --get user.name
+git config --get user.email
+</code></pre></div></div>
+
+<h3 id="step-23-create-an-ssh-key">Step 2.3: Create an SSH key</h3>
+<p>An SSH key is a cryptographically secure identifier. It’s like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.</p>
+
+<p>First, we need to see if you have an Ed25519 algorithm SSH key already installed. Type this into the terminal and check the output with the information below:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls ~/.ssh/id_ed25519.pub
+</code></pre></div></div>
+<p>If a message appears in the console containing the text “No such file or directory”, then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.</p>
+
+<p>To create a new SSH key, run the following command inside your terminal.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen -t ed25519 -C "your@email.com"
+</code></pre></div></div>
+
+<h3 id="step-24-link-your-ssh-key-with-github">Step 2.4: Link your SSH key with GitHub</h3>
+<p>Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.</p>
+
+<p>First, you’ll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on Settings in the drop-down menu.</p>
+
+<p>Next, on the left-hand side, click the SSH and GPG keys. Then, click the green button in the top right corner that says New SSH Key. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.</p>
+
+<p>Now you need to copy your public SSH key. To do this, we’re going to use a command called cat to read the file to the console. (Note that the .pub file extension is essential in this case.)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat ~/.ssh/id_ed25519.pub
+</code></pre></div></div>
+<p>Highlight and copy the output, which starts with ssh-ed25519 and ends with your email address.</p>
+
+<p>Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as Authentication Key and then, click Add SSH key. You’re done! You’ve successfully added your SSH key!</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>You’ve completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!</p>
+
+<p>You probably felt like you were way in over your head, and you probably didn’t understand much of what you were doing. That’s 100% normal. Hang in there. You can do this! And we’ve got your back.</p>]]></content><author><name>Abhay</name></author><category term="Git" /><category term="Github" /><category term="Git github installation" /><summary type="html"><![CDATA[Install Git]]></summary></entry><entry><title type="html">Creating your first Smart Contract in Solidity</title><link href="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html" rel="alternate" type="text/html" title="Creating your first Smart Contract in Solidity" /><published>2023-10-22T00:00:00+05:30</published><updated>2023-10-22T00:00:00+05:30</updated><id>http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity</id><content type="html" xml:base="http://localhost:4000/blockchain/development/2023/10/22/Creating-your-first-Smart-Contract-in-Solidity.html"><![CDATA[<h1 id="-creating-your-first-smart-contract-with-solidity-"><span style="font-size: 4.25em; font-weight: bold; text-decoration: underline"> Creating Your First Smart Contract with Solidity </span></h1>
 
 <h2 id="-what-are-smart-contracts-"><span style="color: gold"> What are Smart Contracts? </span></h2>
 
